@@ -1,0 +1,31 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #11174A;
+    padding: 8px;
+    text-align: left;
+    color: #fff;
+    background-color: #202555;
+    
+  }
+  
+  .table th {
+    background-color: #3e3844;
+  }
+  
+  .expanded-row .expand-content {
+   
+    max-height: 100px;
+    transition: max-height 0.5s ease-out;
+  }
+  
+  .expanded-row.expanded .expand-content {
+    max-height: 200px; /* Set to the maximum height you want to allow */
+  }
+  .heading{
+    color: #fff;
+  }

@@ -1,0 +1,14 @@
+.header-container{
+
+    padding: 16px 0px 0px 10px;
+}
+
+.logo-content{
+
+    text-align: left;
+    background-size: contain;
+    background-image: url('../../assets/logo.png');
+    width: 150px;
+    height: 100px;
+    background-repeat: no-repeat;
+}

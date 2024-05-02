@@ -1,0 +1,88 @@
+/* LoginPage.css */
+.login-page{
+  width: 100%;
+  display: flex;
+  background-color: #11174A;
+}
+.logo-container {
+  width: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100vh;
+  background-color: #11174A; /* Set background color to yellow */
+  margin: 300px 0px 0px 0px;
+}
+
+
+.logo-img {
+  background-size: contain;
+  background-image: url('./logo.png');
+  width: 100px;
+  height: 50px;
+  background-repeat: no-repeat;
+}
+
+.logo-image{
+ 
+  justify-content: center;
+  background-image: url('./logo-bg-edit.gif');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  margin: 100px 0px 0px 100px;
+      background-blend-mode: multiply;
+}
+.login-container {
+  
+    width: 50%;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    background-color: #11174A; /* Set background color to yellow */
+    margin: 300px 0px 0px 0px;
+
+    h2{
+      color: #fff;
+      text-align: left;
+    }
+
+    
+
+  }
+
+  
+  .login-form {
+    background-color: #2B305D;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: solid 1px #2B305D;
+    width: 400px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"],
+  .login-form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  
+  .login-form button {
+    background-color: #ffcc00;
+    color: #000;
+    cursor: pointer;
+    width: 20%;
+    align-items: right;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
